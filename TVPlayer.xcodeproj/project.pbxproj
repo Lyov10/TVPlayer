@@ -8,24 +8,42 @@
 
 /* Begin PBXBuildFile section */
 		C6827D3B2A175FDE00D36E86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6827D3A2A175FDE00D36E86 /* AppDelegate.swift */; };
-		C6827D3D2A175FDE00D36E86 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6827D3C2A175FDE00D36E86 /* SceneDelegate.swift */; };
-		C6827D3F2A175FDE00D36E86 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6827D3E2A175FDE00D36E86 /* ViewController.swift */; };
+		C6827D3F2A175FDE00D36E86 /* AllChanellsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6827D3E2A175FDE00D36E86 /* AllChanellsViewController.swift */; };
 		C6827D422A175FDE00D36E86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6827D402A175FDE00D36E86 /* Main.storyboard */; };
-		C6827D452A175FDE00D36E86 /* TVPlayer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C6827D432A175FDE00D36E86 /* TVPlayer.xcdatamodeld */; };
 		C6827D472A175FDF00D36E86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6827D462A175FDF00D36E86 /* Assets.xcassets */; };
 		C6827D4A2A175FDF00D36E86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6827D482A175FDF00D36E86 /* LaunchScreen.storyboard */; };
+		C6827D562A1764EE00D36E86 /* TvChannelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6827D542A1764EE00D36E86 /* TvChannelTableViewCell.swift */; };
+		C6827D572A1764EE00D36E86 /* TvChannelTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6827D552A1764EE00D36E86 /* TvChannelTableViewCell.xib */; };
+		C6827D5C2A176BD900D36E86 /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6827D5B2A176BD900D36E86 /* RequestManager.swift */; };
+		C6827D5F2A176FE800D36E86 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6827D5E2A176FE800D36E86 /* Constants.swift */; };
+		C6827D622A1771F200D36E86 /* CommonTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6827D612A1771F200D36E86 /* CommonTextField.swift */; };
+		C6827D652A177E8B00D36E86 /* ChannelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6827D642A177E8B00D36E86 /* ChannelModel.swift */; };
+		C6827D682A17820900D36E86 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6827D672A17820900D36E86 /* UIImageView+Extension.swift */; };
+		C6827D6C2A1794B800D36E86 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6827D6B2A1794B800D36E86 /* VideoViewController.swift */; };
+		C6827D6E2A17994000D36E86 /* GradientProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6827D6D2A17994000D36E86 /* GradientProgressBar.swift */; };
+		C6827D752A17B98C00D36E86 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6827D742A17B98C00D36E86 /* PlayerView.swift */; };
+		C6827D772A17B9B700D36E86 /* VideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6827D762A17B9B700D36E86 /* VideoPlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C6827D372A175FDE00D36E86 /* TVPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TVPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6827D3A2A175FDE00D36E86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C6827D3C2A175FDE00D36E86 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C6827D3E2A175FDE00D36E86 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C6827D3E2A175FDE00D36E86 /* AllChanellsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllChanellsViewController.swift; sourceTree = "<group>"; };
 		C6827D412A175FDE00D36E86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C6827D442A175FDE00D36E86 /* TVPlayer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TVPlayer.xcdatamodel; sourceTree = "<group>"; };
 		C6827D462A175FDF00D36E86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C6827D492A175FDF00D36E86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C6827D4B2A175FDF00D36E86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6827D542A1764EE00D36E86 /* TvChannelTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvChannelTableViewCell.swift; sourceTree = "<group>"; };
+		C6827D552A1764EE00D36E86 /* TvChannelTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TvChannelTableViewCell.xib; sourceTree = "<group>"; };
+		C6827D5B2A176BD900D36E86 /* RequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestManager.swift; sourceTree = "<group>"; };
+		C6827D5E2A176FE800D36E86 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C6827D612A1771F200D36E86 /* CommonTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonTextField.swift; sourceTree = "<group>"; };
+		C6827D642A177E8B00D36E86 /* ChannelModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelModel.swift; sourceTree = "<group>"; };
+		C6827D672A17820900D36E86 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		C6827D6B2A1794B800D36E86 /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		C6827D6D2A17994000D36E86 /* GradientProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientProgressBar.swift; sourceTree = "<group>"; };
+		C6827D742A17B98C00D36E86 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		C6827D762A17B9B700D36E86 /* VideoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +76,121 @@
 		C6827D392A175FDE00D36E86 /* TVPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				C6827D3A2A175FDE00D36E86 /* AppDelegate.swift */,
-				C6827D3C2A175FDE00D36E86 /* SceneDelegate.swift */,
-				C6827D3E2A175FDE00D36E86 /* ViewController.swift */,
-				C6827D402A175FDE00D36E86 /* Main.storyboard */,
-				C6827D462A175FDF00D36E86 /* Assets.xcassets */,
-				C6827D482A175FDF00D36E86 /* LaunchScreen.storyboard */,
+				C6827D632A177E8300D36E86 /* Model */,
+				C6827D5A2A176BCB00D36E86 /* RequestManager */,
+				C6827D512A175FFF00D36E86 /* Configurations */,
+				C6827D532A17601C00D36E86 /* ViewController */,
+				C6827D522A17601400D36E86 /* StoryBoards */,
+				C6827D5D2A176FE000D36E86 /* Resources */,
+				C6827D602A1771E500D36E86 /* Utils */,
 				C6827D4B2A175FDF00D36E86 /* Info.plist */,
-				C6827D432A175FDE00D36E86 /* TVPlayer.xcdatamodeld */,
 			);
 			path = TVPlayer;
+			sourceTree = "<group>";
+		};
+		C6827D512A175FFF00D36E86 /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				C6827D3A2A175FDE00D36E86 /* AppDelegate.swift */,
+			);
+			path = Configurations;
+			sourceTree = "<group>";
+		};
+		C6827D522A17601400D36E86 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				C6827D402A175FDE00D36E86 /* Main.storyboard */,
+				C6827D482A175FDF00D36E86 /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		C6827D532A17601C00D36E86 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C6827D6A2A17949600D36E86 /* AllChanels */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C6827D582A1764F300D36E86 /* TvChannelCell */ = {
+			isa = PBXGroup;
+			children = (
+				C6827D542A1764EE00D36E86 /* TvChannelTableViewCell.swift */,
+				C6827D552A1764EE00D36E86 /* TvChannelTableViewCell.xib */,
+			);
+			path = TvChannelCell;
+			sourceTree = "<group>";
+		};
+		C6827D5A2A176BCB00D36E86 /* RequestManager */ = {
+			isa = PBXGroup;
+			children = (
+				C6827D5B2A176BD900D36E86 /* RequestManager.swift */,
+			);
+			path = RequestManager;
+			sourceTree = "<group>";
+		};
+		C6827D5D2A176FE000D36E86 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C6827D462A175FDF00D36E86 /* Assets.xcassets */,
+				C6827D5E2A176FE800D36E86 /* Constants.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C6827D602A1771E500D36E86 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C6827D662A1781F700D36E86 /* CommonUI */,
+				C6827D692A17821400D36E86 /* Extensions */,
+				C6827D782A17BE7100D36E86 /* VideoPlayer */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		C6827D632A177E8300D36E86 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C6827D642A177E8B00D36E86 /* ChannelModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C6827D662A1781F700D36E86 /* CommonUI */ = {
+			isa = PBXGroup;
+			children = (
+				C6827D612A1771F200D36E86 /* CommonTextField.swift */,
+				C6827D6D2A17994000D36E86 /* GradientProgressBar.swift */,
+			);
+			path = CommonUI;
+			sourceTree = "<group>";
+		};
+		C6827D692A17821400D36E86 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C6827D672A17820900D36E86 /* UIImageView+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C6827D6A2A17949600D36E86 /* AllChanels */ = {
+			isa = PBXGroup;
+			children = (
+				C6827D582A1764F300D36E86 /* TvChannelCell */,
+				C6827D3E2A175FDE00D36E86 /* AllChanellsViewController.swift */,
+				C6827D6B2A1794B800D36E86 /* VideoViewController.swift */,
+			);
+			path = AllChanels;
+			sourceTree = "<group>";
+		};
+		C6827D782A17BE7100D36E86 /* VideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				C6827D742A17B98C00D36E86 /* PlayerView.swift */,
+				C6827D762A17B9B700D36E86 /* VideoPlayer.swift */,
+			);
+			path = VideoPlayer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6827D4A2A175FDF00D36E86 /* LaunchScreen.storyboard in Resources */,
+				C6827D572A1764EE00D36E86 /* TvChannelTableViewCell.xib in Resources */,
 				C6827D472A175FDF00D36E86 /* Assets.xcassets in Resources */,
 				C6827D422A175FDE00D36E86 /* Main.storyboard in Resources */,
 			);
@@ -141,10 +265,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6827D452A175FDE00D36E86 /* TVPlayer.xcdatamodeld in Sources */,
-				C6827D3F2A175FDE00D36E86 /* ViewController.swift in Sources */,
+				C6827D6E2A17994000D36E86 /* GradientProgressBar.swift in Sources */,
+				C6827D682A17820900D36E86 /* UIImageView+Extension.swift in Sources */,
+				C6827D562A1764EE00D36E86 /* TvChannelTableViewCell.swift in Sources */,
+				C6827D752A17B98C00D36E86 /* PlayerView.swift in Sources */,
+				C6827D6C2A1794B800D36E86 /* VideoViewController.swift in Sources */,
+				C6827D622A1771F200D36E86 /* CommonTextField.swift in Sources */,
+				C6827D3F2A175FDE00D36E86 /* AllChanellsViewController.swift in Sources */,
+				C6827D5C2A176BD900D36E86 /* RequestManager.swift in Sources */,
+				C6827D772A17B9B700D36E86 /* VideoPlayer.swift in Sources */,
+				C6827D5F2A176FE800D36E86 /* Constants.swift in Sources */,
 				C6827D3B2A175FDE00D36E86 /* AppDelegate.swift in Sources */,
-				C6827D3D2A175FDE00D36E86 /* SceneDelegate.swift in Sources */,
+				C6827D652A177E8B00D36E86 /* ChannelModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,8 +429,9 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -325,8 +458,9 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -362,19 +496,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		C6827D432A175FDE00D36E86 /* TVPlayer.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				C6827D442A175FDE00D36E86 /* TVPlayer.xcdatamodel */,
-			);
-			currentVersion = C6827D442A175FDE00D36E86 /* TVPlayer.xcdatamodel */;
-			path = TVPlayer.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = C6827D2F2A175FDE00D36E86 /* Project object */;
 }

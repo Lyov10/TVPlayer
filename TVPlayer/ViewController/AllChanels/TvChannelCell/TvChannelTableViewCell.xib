@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="105" id="KGk-i7-Jjw" customClass="TvChannelTableViewCell" customModule="TVPlayer" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="465" height="105"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="465" height="105"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="s2Q-4W-xF7">
+                        <rect key="frame" x="16" y="4" width="433" height="97"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="qZI-sF-Rf6">
+                                <rect key="frame" x="8" y="8" width="409" height="81"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="45" translatesAutoresizingMaskIntoConstraints="NO" id="yIf-8r-hpY">
+                                        <rect key="frame" x="0.0" y="10.666666666666671" width="150" height="60"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Iaj-XZ-06m">
+                                                <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="60" id="EzN-JG-SaU"/>
+                                                    <constraint firstAttribute="width" secondItem="Iaj-XZ-06m" secondAttribute="height" id="JYk-HV-hPR"/>
+                                                </constraints>
+                                            </imageView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="uxt-Tz-hhi">
+                                                <rect key="frame" x="105" y="6" width="45" height="47.666666666666664"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lgp-mg-Ehl">
+                                                        <rect key="frame" x="0.0" y="0.0" width="45" height="21.666666666666668"/>
+                                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yMQ-Sf-8ks">
+                                                        <rect key="frame" x="0.0" y="29.666666666666671" width="45" height="18"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                        <color key="textColor" red="0.9137254901960784" green="0.91764705882352937" blue="0.93725490196078431" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6d9-4y-IzL">
+                                        <rect key="frame" x="369" y="20.666666666666664" width="40" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="ZDA-83-W9c"/>
+                                            <constraint firstAttribute="width" secondItem="6d9-4y-IzL" secondAttribute="height" id="elR-KI-PBa"/>
+                                        </constraints>
+                                        <color key="tintColor" red="0.0" green="0.46666666666666667" blue="1" alpha="0.84705882352941175" colorSpace="calibratedRGB"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" image="star.fill" catalog="system"/>
+                                        <connections>
+                                            <action selector="didTapFavoriteButton:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="nZP-tN-nbL"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.19215686274509802" green="0.19215686274509802" blue="0.20784313725490194" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="qZI-sF-Rf6" firstAttribute="leading" secondItem="s2Q-4W-xF7" secondAttribute="leading" constant="8" id="8ds-6W-jpw"/>
+                            <constraint firstAttribute="trailing" secondItem="qZI-sF-Rf6" secondAttribute="trailing" constant="16" id="8j3-PC-khD"/>
+                            <constraint firstAttribute="bottom" secondItem="qZI-sF-Rf6" secondAttribute="bottom" constant="8" id="Kv3-OQ-X0j"/>
+                            <constraint firstItem="qZI-sF-Rf6" firstAttribute="top" secondItem="s2Q-4W-xF7" secondAttribute="top" constant="8" id="h15-r8-vzb"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="s2Q-4W-xF7" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="4" id="1hs-FJ-0xZ"/>
+                    <constraint firstAttribute="trailing" secondItem="s2Q-4W-xF7" secondAttribute="trailing" constant="16" id="2Bg-3b-hUb"/>
+                    <constraint firstItem="s2Q-4W-xF7" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="Z0x-yB-4WS"/>
+                    <constraint firstAttribute="bottom" secondItem="s2Q-4W-xF7" secondAttribute="bottom" constant="4" id="aWR-iy-yTi"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="chanellDescriptionLabel" destination="yMQ-Sf-8ks" id="8T3-v4-HSE"/>
+                <outlet property="chanellImage" destination="Iaj-XZ-06m" id="7dR-JD-qzr"/>
+                <outlet property="chanellNameLabel" destination="Lgp-mg-Ehl" id="UTr-Gm-NRb"/>
+                <outlet property="containerView" destination="s2Q-4W-xF7" id="Xvr-1k-x8N"/>
+                <outlet property="favoriteButton" destination="6d9-4y-IzL" id="8VD-1X-AJS"/>
+            </connections>
+            <point key="canvasLocation" x="127.48091603053435" y="41.197183098591552"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="star.fill" catalog="system" width="128" height="116"/>
+    </resources>
+</document>
